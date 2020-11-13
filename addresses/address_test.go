@@ -1,8 +1,11 @@
 // UNITY TEST
 
-package addresses
+package addresses_test
 
-import "testing"
+import (
+	"testing"
+	. "tests-introduction/addresses" // . é  Alias que se refere ao apcote principal
+)
 
 type testScene struct {
 	insertedAddress string
